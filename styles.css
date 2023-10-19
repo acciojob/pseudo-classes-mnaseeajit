@@ -9,19 +9,18 @@
 #ids p:nth-child(3){
 	color : red;
 }
-#ul1{
+li{
+	width: 50%;
+	padding : 10px;
 	background-color : gray;
 }
-#id1,#id3,#id5{
+ li:nth-child(odd){
 	background-color : white;
 }
-.allid{
-	width : 50%;
-	padding : 10px;
-}
-#id1,#id5{
+
+li:first-child,li:last-child{
 	font-size : 22px;
 }
-#id3{
+li:nth-last-child(3){
 	background-color : pink;
 }
