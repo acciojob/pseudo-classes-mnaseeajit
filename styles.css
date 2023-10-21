@@ -16,7 +16,7 @@ body {
 article p:first-child {
     background-color: black;
     color: white;
-    padding: 10px;
+   
 }
 
 article p:nth-child(2) {
@@ -54,4 +54,7 @@ li:last-child {
 
 li:nth-last-child(3) {
     background-color: pink;
+}
+#id2 , #id4{
+	padding-left : 0px;
 }
